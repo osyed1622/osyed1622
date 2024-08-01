@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body onload="hideSpinner()">
+    <div id="spinner" class="spinner">
+        <div class="loader"></div>
+    </div>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="resume.html">Resume</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="home">
+            <div class="image-container">
+                <img id="profileImg" src="./IMG_20240728_114649008_HDR.jpg" alt="Profile Picture">
+            </div>
+            <div class="text-container">
+                <h1>Welcome to My Portfolio</h1>
+                <p>Hi, I'm  <strong>Owais Syed</strong>, a passionate web developer.</p>
+                <p class="quote">"Design is not just what it looks like and feels like. Design is how it works." - Steve Jobs</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Owais Syed. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
